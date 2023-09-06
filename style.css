@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    /* border: 5px solid black; */
+    border-radius: 20%;
+    box-shadow: 0 0 5px black;
+    margin: 20px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 39);
+}
+
+.green {
+    background-color: rgb(39, 255, 39);
+}
+
+.red {
+    background-color: rgb(255, 50, 43);
+}
+
+.blue {
+    background-color: rgb(63, 153, 255);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color:aqua;
+}
